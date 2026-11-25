@@ -1,0 +1,14 @@
+name: norvane
+services:
+  postgres:
+    image: postgres:16
+    shm_size: 1g
+    environment:
+      POSTGRES_PASSWORD: postgres
+    command: postgres -c shared_buffers=256MB -c max_connections=300
+    ports: ["5432:5432"]
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d:ro
+  kafka:
+    image: apache/kafka:3.9.0
+    ports: ["9092:9092"]

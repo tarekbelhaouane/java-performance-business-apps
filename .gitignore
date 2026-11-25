@@ -1,0 +1,12 @@
+out/
+out-plugin/
+target/
+results/
+results-fix/
+dumps/
+tools/
+*.class
+*.log
+*.hprof
+*.jfr
+*-results.zip

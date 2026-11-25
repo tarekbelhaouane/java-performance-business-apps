@@ -1,7 +1,7 @@
 # Java Performance for Business Applications - companion code
 
 Code and measurement projects for the book *Java Performance for Business Applications:
-From the JVM to Spring Boot, Databases, Batch and Kafka* by Tarek Belhaouane.
+Solving Production Incidents from the JVM to the Database* by Tarek Belhaouane.
 
 | Folder | What it contains | Requirements |
 |---|---|---|
